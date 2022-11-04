@@ -10,10 +10,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
  
-import com.ecomerce.webapp.EmployeeDAO;
-import com.ecomerce.webapp.Employee;
-import com.ecomerce.webapp.Employees;
- 
 @RestController
 @RequestMapping(path = "/employees")
 public class EmployeeController 
